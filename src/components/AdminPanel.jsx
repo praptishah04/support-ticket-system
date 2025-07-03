@@ -20,7 +20,6 @@ export const AdminPanel = () => {
           <h2 className="dashboard-title">Admin Panel</h2>
           <button className="logout-btn" onClick={handleLogout}>Logout</button>
         </div>
-        {/* Tabs styled like dashboard filters */}
         <div className="dashboard-filters" style={{ marginBottom: 24 }}>
           <button
             onClick={() => setTab('departments')}
